@@ -18,6 +18,8 @@ public class C03_ByLinkText_ByPartialLinkText {
     //testotomasyonu.com anasayfaya gidin.
         driver.get("https://www.testotomasyonu.com");
 
+        //not gelecek, hocanın yazdıgı
+
     //shoes Linkine tıklayın.
         driver.findElement(By.linkText("Shoes")).click(); //linki bulup click yapacak.
 

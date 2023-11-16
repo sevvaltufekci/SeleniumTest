@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import utilities.ReusableMethods;
 
 import java.time.Duration;
 import java.util.List;
@@ -25,7 +26,7 @@ public class C02_ByClassName {
             System.out.println("Kategori testi sayisi FAİLED");
         }
         //Yazdırabilmemiz için dönüştürmemiz lazım
-        ReusableMethods.stringListeDonustur(kategoryElementleriList).;
+        ReusableMethods.stringListeDonustur(kategoryElementleriList);
         driver.close();
 
 
