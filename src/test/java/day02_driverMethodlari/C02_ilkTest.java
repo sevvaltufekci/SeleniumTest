@@ -21,7 +21,8 @@ public class C02_ilkTest {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
 
-        //testotomasyonu anasayfaya gidin. //clena kod için her aşamaya ekleme yap!!!!
+        //testotomasyonu anasayfaya gidin.
+        // clena kod için her aşamaya ekleme yap!!!!
         driver.get("https://testotomasyonu.com/");
         //driver.get(\"https://testotomasyonu.com");ilk test girdimizdi.
 
